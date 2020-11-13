@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Coding Quiz</title>  
+</head>
+<body>
+  <div class="container">
+    <p class="timer-countdown"> Timer: <span id="timer">60</span></p>
+  </div>
+  <div class="container">
+    <div class="col-md-2">
+
+    </div>
+    <div id="quiz" class="col-md-8 ">
+      <h1> Code Quiz Instructions</h1>
+      <p>
+        Welcome to the coding quiz. Click the start button and you will have 60 seconds to answer 5 questions about coding.
+        When you are finished, you will be asked to enter a name and submit your high score.
+      </p>
+      <button id="start" class="btn btn-success">Start Quiz</button>
+    </div>
+    <div class="col-md-2">
+    </div>
+  </div>
+  <div id="answer" class="container">
+    <p></p>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
