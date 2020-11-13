@@ -12,7 +12,9 @@ To make a quiz that the user can take, record their intials and score into the l
 
 ## Technologies
 -Bootstrap
+
 -Javascript
+
 -HTML
 
 ## Screenshot
